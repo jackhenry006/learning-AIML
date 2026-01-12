@@ -31,3 +31,35 @@ product.total()
 p1.calc_discount(50_000,12)
 
 """
+
+# Q1
+
+class Bank_Account:
+    def __init__(self,account_number,owner_name,balance):
+        self.account_number=account_number
+        self.owner_name=owner_name
+        self.balance=balance
+
+    def deposit(self):
+        print(f"Your Amount Has been deposited to the account {self.account_number} , {self.owner_name} , balnce:{self.balance}")
+
+    def withdraw(self):
+        print(f"Your Amount Has been deducted from the account {self.account_number} , {self.owner_name} , balnce:{self.balance}")
+
+    def check_balance(self):
+        print(f"Your account has balance  {self.account_number} , {self.owner_name} , balnce:{self.balance}")
+
+
+bank=Bank_Account("12344567","Ankit","50_0000")
+bank.deposit()
+bank.check_balance()
+bank.withdraw()
+
+# Q2
+
+def Book():
+    
+
+    
+
+        
