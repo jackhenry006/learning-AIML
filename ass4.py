@@ -33,7 +33,7 @@ p1.calc_discount(50_000,12)
 """
 
 # Q1
-
+"""
 class Bank_Account:
     def __init__(self,account_number,owner_name,balance):
         self.account_number=account_number
@@ -54,12 +54,37 @@ bank=Bank_Account("12344567","Ankit","50_0000")
 bank.deposit()
 bank.check_balance()
 bank.withdraw()
+"""
 
 # Q2
 
-def Book():
-    
+"""
+class Book():
+    def __init__(self):
+        self.title="Harrypotter"
+        self.author="author"
+        self.review=[]
 
-    
+    def add_review(self,new_review):
+        self.review.append(new_review)
+        print("Your review is added Sucessfully")
 
-        
+    def count(self):
+        print(f"The total reviews are: {len(self.review)}")
+
+    def display(self):
+        if not self.review:
+            print("Ther is no Review")
+        else:
+            print(f"The Reviews are : {self.review}")
+
+bk=Book()
+yn=input("Do you want to eter a review yes or no: ")
+
+if(yn.upper()=="YES"):
+    value=input("Enter the review : ")
+
+bk.add_review(value)
+bk.count()
+bk.display()
+"""
