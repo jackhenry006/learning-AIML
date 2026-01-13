@@ -139,3 +139,37 @@ s1.get_name()
 s1.get_rollno()
 s1.get_marks()
 """
+
+# Q4
+"""
+class shape():
+    
+    def area(self):
+        print("it invokes")
+
+class circle(shape):
+
+    def area(self,radius):
+        
+        circle_area=3.14*radius**2
+        print(f"The radius of the circle is : {circle_area}")
+
+class rectangle(shape):
+    def area(self,ln,br):
+        rect_area=ln*br
+        print(f"The area of the rectangle is: {rect_area}")
+
+class triangle(shape):
+    def area(self,ba,he):
+        tri_area=0.5*ba*he
+        print(f"The area of the triangle is: {tri_area}")
+        
+
+c = circle()
+r = rectangle()
+t = triangle()
+
+c.area(2)
+r.area(3,5)
+t.area(2,4)
+"""
