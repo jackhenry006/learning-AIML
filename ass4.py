@@ -212,3 +212,33 @@ ca.display_car()
 
 """
 
+# Q6
+"""
+from abc import ABC , abstractmethod
+
+class employee(ABC):
+    @abstractmethod
+    def calculate_salary(self):
+        pass
+
+class Intern(employee):
+    def calculate_salary(self,sal):
+        print(f"The salary of an intern : {sal}")
+
+class FullTimeemployee(employee):
+    def calculate_salary(self,sal):
+        print(f"The salary of an full time employee : {sal}")
+
+class ContractEmploye(employee):
+    def calculate_salary(self,sal):
+        print(f"The salary of a contract employee : {sal}")
+
+fresher=Intern()
+full=FullTimeemployee()
+con=ContractEmploye()
+
+fresher.calculate_salary(20_000)
+full.calculate_salary(60_000)
+con.calculate_salary(90_000)
+"""
+
