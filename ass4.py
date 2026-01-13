@@ -88,3 +88,54 @@ bk.add_review(value)
 bk.count()
 bk.display()
 """
+
+# Q3
+"""
+class student():
+    def __init__(self,name,marks,rollno):
+        self.__name=None
+        self.__marks=None
+        self.__rollno=None
+
+        self.set_name(name)
+        self.set_marks(marks)
+        self.set_rollno(rollno)
+    
+    def set_name(self,nam):
+        if(nam != ""):
+            self.__name=nam
+            print("The name is added sucessfully")
+        else:
+            print("The name space cant be empty")
+            
+    def set_marks(self,mar):
+        if(mar>=0):
+            self.__marks=mar
+            print("Your mark is updated Sucessfully")
+        else:
+            print("The mark cant be negative")
+            
+    
+    def set_rollno(self,roll):
+        if(1<=roll<=100):
+            self.__rollno=roll
+            print("Your roll no is updated sucessfully")
+        else:
+            print("The roll no must be in the between of 1 to 100")
+
+    def get_name(self):
+        print(self.__name)
+
+    def get_rollno(self):
+        print(self.__rollno)
+    
+    def get_marks(self):
+        print(self.__marks)
+    
+
+s1 = student("Ankit",56,34)
+
+s1.get_name()
+s1.get_rollno()
+s1.get_marks()
+"""
