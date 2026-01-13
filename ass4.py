@@ -173,3 +173,42 @@ c.area(2)
 r.area(3,5)
 t.area(2,4)
 """
+
+# Q5
+"""
+class Vechile():
+    def __init__(self,brand,model):
+        self.brand=brand
+        self.model=model
+
+class bike(Vechile):
+
+    def __init__(self,brand,model,engine_cc):
+        super().__init__(brand,model)
+        self.engine_cc=engine_cc
+
+    def display_bike(self):
+        print(f"The brand of the bike is: {self.brand}")
+        print(f"The model of the bike is: {self.model}")
+        print(f"The cc of the bike is: {self.engine_cc}")
+
+class car(Vechile):
+    def __init__(self,brand,model,seats):
+       super().__init__(brand,model)
+       self.seats=seats
+    
+
+    def display_car(self):
+        print(f"The brand of the car is: {self.brand}")
+        print(f"The model of the car is: {self.model}")
+        print(f"The of seats of the car is: {self.seats}")
+
+
+bi=bike("hero","od10d342","350cc")
+ca=car("lambo","od10d34267",4)
+
+bi.display_bike()
+ca.display_car()
+
+"""
+
