@@ -242,3 +242,21 @@ full.calculate_salary(60_000)
 con.calculate_salary(90_000)
 """
 
+# Q7
+"""
+class person():
+    
+    def __init__(self,name,age=None,address=None):
+        self.name=name
+        self.age=age
+        self.address=address
+
+p1=person("Ankit")
+p2=person("Ankit",19)
+p3=person("Ankit",19,"sombartota jeypore")
+
+print(p1.name)
+print(p2.name,p2.age)
+print(p3.name,p3.age,p3.address)
+"""
+
