@@ -303,3 +303,21 @@ ani.nvg()
 ani.flesh
 """
  
+ #Q10
+"""
+class User():
+    def __init__(self):
+        self.li=[]
+
+
+    def sent(self,new__li):
+        self.li.append(new__li)
+        print("Your Message has sent sucessfully")
+        
+    def display(self):
+        print(f"The total message in the inbox is: {self.li}")
+
+us=User()
+us.sent("Hiii my name is ankit")
+us.display()
+  """
