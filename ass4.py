@@ -260,3 +260,46 @@ print(p2.name,p2.age)
 print(p3.name,p3.age,p3.address)
 """
 
+# q8
+"""
+class player:
+    player_count=0
+    def __init__(self,name,level):
+        self.name=name
+        self.level=level
+        player.player_count +=1
+
+p1=player("ankit",2)
+p2=player("sunil",34)
+
+print(p1.name,p1.level)
+print(p2.name,p2.level)
+print(f"The total number of player is: {player.player_count}")
+"""
+
+# Q9
+
+"""
+class Herbivouers():
+    def plant(self):
+        print("Herbivoures are plant eating animal")
+
+class ominivours():
+    def nvg(self):
+        print("These est both plant and animal")
+
+class carnivours():
+    def flesh(self):
+        print("They eat only flesh or animal")
+
+class animal(Herbivouers,ominivours,carnivours):
+    def whole(self):
+        print("The charactersicts of animal")
+
+ani=animal()
+ani.whole()
+ani.plant()
+ani.nvg()
+ani.flesh
+"""
+ 
