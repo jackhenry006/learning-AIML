@@ -1,3 +1,1 @@
-i am learning AIML
-by using the language python 
-we can use it also for learning python
+
