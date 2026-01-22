@@ -37,3 +37,33 @@ with open("sample.txt","r") as f:
     print(value)
 
 """
+
+# q3
+"""
+numbers = [5,10,15,20,25,30]
+
+grt=[num for num in numbers if num>15]
+
+print(grt)
+"""
+
+#q4
+"""
+import json
+dictn={
+   "ct1":"jeypore",
+   "ct2":"koraput",
+   "ct3":"rayadgada",
+   "ct4":"odi",
+}
+hii=json.dumps(dictn)
+"""
+# q5
+"""
+try:
+    with open("sample2.txt","r") as f:
+        print(f.read())
+    
+except:
+    print("File not found!")
+"""
